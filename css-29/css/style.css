@@ -1,0 +1,32 @@
+.block {
+    /* width: 400px;
+    height: 600px; */
+    background: #d3cdcdfb;
+
+    max-width: 1000px;
+    min-width: 500px;
+
+    max-height: 1000px;
+    min-height: 100px;
+}
+
+.inline {
+    width: 1000px;
+    height: 100px;
+
+    max-width: 1000px;
+    min-width: 500px;
+
+    max-height: 1000px;
+    min-height: 500px;
+}
+
+.img {
+    width: 100px;
+}
+
+.red {
+    background: red;
+    min-width: 400px;
+    max-height: 25px;
+}
