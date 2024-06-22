@@ -25,9 +25,9 @@ console.log(person(users))
 
 // --------------------------------2------------------------------
 
-const numbers = [1, 11, 3, 30]
+const numbers = [1, 11, 3, 30, 5, 10, 50]
 
-function checkForCopyItem (array) {
+function checkForCopyItem(array) {
     for (let i = 0; i < array.length; i++) {
         if (array[i] > 10) {
             return array[i]
@@ -35,8 +35,20 @@ function checkForCopyItem (array) {
     }
 }
 
-console.log(checkForCopyItem(numbers)) //Почему все числа, которые больше 10 не выводятся?
+console.log(checkForCopyItem(numbers))
 
 // --------------------------------3------------------------------
 
-// Сделаю позже
+const calc = (first, second, sign) => {
+    if (sign === 'minus') {
+        return result = first - second
+    } else if (sign === 'plus') {
+        return result = first + second
+    } else if (sign === 'multiply') {
+        return result = first * second
+    } else if (sign === 'divide') {
+        return result = first / second
+    }
+}
+
+console.log(calc(2, 3, 'minus'))
