@@ -30,12 +30,12 @@ const numbers = [1, 11, 3, 30, 5, 10, 50]
 function checkForCopyItem(array) {
     for (let i = 0; i < array.length; i++) {
         if (array[i] > 10) {
-            return array[i]
+            console.log(array[i])
         }
     }
 }
-
 console.log(checkForCopyItem(numbers))
+
 
 // --------------------------------3------------------------------
 
